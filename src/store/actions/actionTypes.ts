@@ -3,4 +3,9 @@ export type DeleteFruitAction = {
   fruitName: string,
 }
 
-export type ActionTypes = DeleteFruitAction
+export type UpdateRemoteDataAction = {
+  type: 'UDPATE_REMOTE_DATA',
+  data: any
+}
+
+export type ActionTypes = DeleteFruitAction | UpdateRemoteDataAction

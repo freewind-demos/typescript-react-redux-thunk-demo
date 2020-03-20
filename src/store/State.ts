@@ -1,3 +1,4 @@
 export type State = {
-  fruits: string[]
+  fruits: string[],
+  remoteData: any,
 };
